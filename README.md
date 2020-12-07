@@ -14,7 +14,7 @@ Additional description about the project and its features.
 - CSS
 - BOOTSTRAP
 
-Built with CSS responsive techniques as "Flex, Grid, MediaQueries"\
+Built with CSS responsive techniques as "Flex, Grid, MediaQueries, Bootstrap"\
 
 ## Usage
 
