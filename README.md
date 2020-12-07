@@ -14,11 +14,19 @@ Additional description about the project and its features.
 - CSS
 - BOOTSTRAP
 
-Built with CSS responsive techniques as "Flex, Grid, MediaQueries"
+Built with CSS responsive techniques as "Flex, Grid, MediaQueries"\
+
+## Usage
+
+git clone https://github.com/Mohamed-js/News-week.git
+
+cd tnw-responsive-web
+
+open index.html
 
 ## Live Demo
 
-[Live Demo Link](https://jaimdedan.github.io/tnw_responsive/)
+[Live Demo Link](https://Mohamed-js.github.io/News-week/)
 
 ## Authors
 
@@ -28,7 +36,9 @@ Built with CSS responsive techniques as "Flex, Grid, MediaQueries"
 
 👤 **Jaim Delmar**
 
-- GitHub: [Jaim Delmar](https://github.com/jaimdedan)
+- GitHub: [johnhernandez-code](https://github.com/johnhernandez-code)
+- Twitter: [@JohnHernCode](https://twitter.com/JohnHernCode)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/john-hernandez-56a7821b8/)
 
 ## 🤝 Contributing
 
@@ -41,3 +51,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 Thanks for the both parties involved in the development of this project.
+
+## 📝 License
+
+This project is [MIT](https://github.com/Mohamed-js/News-week/blob/dev-branch/LICENSE) licensed.
