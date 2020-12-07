@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  background-color: #f4f5f6;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.navbar {
+    background-color: #f72210;
+    font-weight: bolder;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+nav a {
+    color: white;
+    margin-right: 10px;
+    
+}
+
+nav button {
+    margin-right: 10px;
+    padding: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: none;
+    background-color: #ffe400;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+.navbar-toggler-icon{
+    margin-right: 0px;
+    padding: 5px;
+    
+}
+
+main {
+  max-width: 1192px;
+  background-color: white;
+}
+
+.section-1 {
+    
+}
+
+.left {
+    display: inline-flex;
+    width: 25%;
+    flex-flow: column;
+    margin-top: 100px;
+}
+
+.center {
+    display: inline-flex;
+    flex-flow: column;
+    width: 40%;
+    position: sticky;
+    top: 0px;
+}
+
+.right {
+    display: inline-flex;
+    flex-flow: column;
+    width: 25%;
+    position: sticky;
+    top: 125px;
+}
+
+.img img {
+    width: 100%;
+}
+
+.img span {
+    padding: 5px;
+    position: relative;
+    top: -26px;
+    background-color: rgba(211, 210, 210,.8);
+}
+
+.card {
+    display: inline-block;
+}
