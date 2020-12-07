@@ -20,7 +20,7 @@ Built with CSS responsive techniques as "Flex, Grid, MediaQueries"\
 
 git clone https://github.com/Mohamed-js/News-week.git
 
-cd tnw-responsive-web
+cd News-week
 
 open index.html
 
