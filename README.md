@@ -33,8 +33,10 @@ open index.html
 👤 **Mohammed Atef**
 
 - GitHub: [Mohammed Atef](https://github.com/Mohamed-js)
+- Twitter: [@MohammedAtef](https://twitter.com/Demovejetta)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-atef-032b6b1b0/)
 
-👤 **Jaim Delmar**
+👤 **John hernandez**
 
 - GitHub: [johnhernandez-code](https://github.com/johnhernandez-code)
 - Twitter: [@JohnHernCode](https://twitter.com/JohnHernCode)
