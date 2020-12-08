@@ -4,7 +4,8 @@
 }
 
 .h5,
-h5 {
+h5,
+h6 {
   font-size: 1rem;
   font-weight: bold;
 }
@@ -49,7 +50,11 @@ nav button {
   padding: 5px;
 }
 
+.nav1 {
+  display: flex;
+}
 .nav2 {
+  display: none;
   max-width: 1192px;
   margin: auto;
   padding-top: 0;
@@ -63,6 +68,7 @@ nav button {
 }
 
 .nav3 {
+  display: none;
   max-width: 1192px;
   margin: auto;
   padding: 10px;
@@ -88,6 +94,7 @@ nav button {
 }
 
 .nav4 {
+  display: none;
   max-width: 1192px;
   margin: auto;
   padding: 10px;
@@ -118,29 +125,89 @@ main {
 
 .left {
   display: inline-flex;
-  width: 25%;
+  width: 100%;
   flex-flow: column;
-  margin-right: 10px;
+  margin: auto;
   padding-top: 50px;
 }
 
 .center {
   display: inline-flex;
   flex-flow: column;
-  width: 40%;
-  position: sticky;
+  width: 100%;
+  position: static;
   top: 0;
-  margin-right: 10px;
+  margin: auto;
   padding-top: 50px;
 }
 
 .right {
   display: inline-flex;
   flex-flow: column;
-  width: 25%;
-  position: sticky;
+  width: 100%;
+  position: static;
   top: 0;
   padding-top: 50px;
+  margin: auto;
+}
+
+/* tablet */
+@media screen and (min-width: 762px) {
+  .gathering {
+    width: 100%;
+  }
+  .center {
+    position: sticky;
+    width: 60%;
+    margin: 15px;
+  }
+
+  .left {
+    width: 30%;
+    margin: 15px;
+  }
+
+  .cardss {
+    max-width: 350px;
+    margin: auto;
+  }
+}
+
+/* desktop */
+
+@media screen and (min-width: 972px) {
+  .right {
+    position: sticky;
+    width: 27%;
+  }
+
+  .gathering {
+    width: 70%;
+    display: inline-block;
+  }
+
+  .center {
+    position: sticky;
+    width: 60%;
+    margin: 15px;
+  }
+
+  .left {
+    width: 30%;
+    margin: 15px;
+  }
+  .nav2 {
+    display: flex;
+  }
+  .nav1 {
+    display: none;
+  }
+  .nav3 {
+    display: block;
+  }
+  .nav4 {
+    display: block;
+  }
 }
 
 .img img {
@@ -210,7 +277,7 @@ main {
 
 .roow {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 5px;
   border-bottom: 1px rgb(179, 179, 179) solid;
 }
