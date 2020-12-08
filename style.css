@@ -320,6 +320,12 @@ main {
   position: relative;
 }
 
+.newsweekfootrow {
+  padding-left: 10px;
+  background-color: #fff;
+  position: relative;
+}
+
 footer {
   background-color: #fff;
   margin-top: 10px;
@@ -340,7 +346,22 @@ footer .container {
   padding-top: 30px;
 }
 
+.copyright-line {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 15px;
+  padding-top: 30px;
+}
+
 #footer-links {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 15px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.footer-links {
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 15px;
@@ -364,6 +385,10 @@ footer .container {
   background-color: #f4f5f6;
 }
 
+.subscribe {
+  background-color: #f4f5f6;
+}
+
 .subscribe-img {
   margin-left: 50px;
 }
@@ -375,7 +400,20 @@ footer .container {
   font-weight: 700;
 }
 
+.h2-bottom-rows {
+  color: #f72210;
+  line-height: 22px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
 #h2-bottom-rows2 {
+  line-height: 22px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.h2-bottom-rows2 {
   line-height: 22px;
   font-size: 22px;
   font-weight: 700;
@@ -396,7 +434,20 @@ hr {
   padding-top: 5px;
 }
 
+.row-text {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: left;
+  padding-top: 5px;
+}
+
 #right-side {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.right-side {
   font-size: 17px;
   font-weight: 700;
 }
@@ -423,6 +474,10 @@ hr {
   border: 0;
 }
 
+.no-borders {
+  border: 0;
+}
+
 .card-image {
   position: relative;
 }
@@ -439,7 +494,30 @@ hr {
   padding-bottom: 5px;
 }
 
+.row-link {
+  line-height: 22px;
+  font-size: 22px;
+  font-weight: 700;
+  background: rgba(243, 241, 241, 0.8);
+  text-align: center;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+}
+
 #row-link2 {
+  line-height: 22px;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: left;
+  padding-top: 5px;
+  padding-left: 0;
+  padding-right: 15px;
+  padding-bottom: 5px;
+}
+
+.row-link2 {
   line-height: 22px;
   font-size: 22px;
   font-weight: 700;
