@@ -53,6 +53,7 @@ nav button {
 .nav1 {
   display: flex;
 }
+
 .nav2 {
   display: none;
   max-width: 1192px;
@@ -156,6 +157,7 @@ main {
   flex-flow: column;
   justify-content: space-between;
 }
+
 .pic {
   width: 100%;
 }
@@ -163,11 +165,13 @@ main {
 .pic p {
   padding: 5px;
 }
+
 /* tablet */
 @media screen and (min-width: 762px) {
   .gathering {
     width: 100%;
   }
+
   .center {
     position: sticky;
     width: 60%;
@@ -188,6 +192,7 @@ main {
     flex-flow: row;
     flex-wrap: wrap;
   }
+
   .pic {
     width: 30%;
   }
@@ -216,22 +221,28 @@ main {
     width: 30%;
     margin: 15px;
   }
+
   .nav2 {
     display: flex;
   }
+
   .nav1 {
     display: none;
   }
+
   .nav3 {
     display: block;
   }
+
   .nav4 {
     display: block;
   }
+
   .pics {
     flex-flow: row;
     flex-wrap: wrap;
   }
+
   .pic {
     width: 30%;
   }
@@ -252,10 +263,6 @@ main {
   display: inline-block;
   margin-bottom: 15px;
 }
-
-
-
-
 
 .pic img {
   width: 100%;
@@ -298,7 +305,6 @@ main {
 
 .roow {
   display: flex;
-  /* justify-content: space-between; */
   padding: 5px;
   border-bottom: 1px rgb(179, 179, 179) solid;
 }
