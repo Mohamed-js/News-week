@@ -151,6 +151,18 @@ main {
   margin: auto;
 }
 
+.pics {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.pic {
+  width: 100%;
+}
+
+.pic p {
+  padding: 5px;
+}
 /* tablet */
 @media screen and (min-width: 762px) {
   .gathering {
@@ -170,6 +182,14 @@ main {
   .cardss {
     max-width: 350px;
     margin: auto;
+  }
+
+  .pics {
+    flex-flow: row;
+    flex-wrap: wrap;
+  }
+  .pic {
+    width: 30%;
   }
 }
 
@@ -208,6 +228,13 @@ main {
   .nav4 {
     display: block;
   }
+  .pics {
+    flex-flow: row;
+    flex-wrap: wrap;
+  }
+  .pic {
+    width: 30%;
+  }
 }
 
 .img img {
@@ -226,15 +253,9 @@ main {
   margin-bottom: 15px;
 }
 
-.pics {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 
-.pic {
-  width: 30%;
-}
+
+
 
 .pic img {
   width: 100%;
