@@ -234,3 +234,9 @@ hr {
   font-size: 17px;
   font-weight: 700;
 }
+
+.img-fluidd {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
