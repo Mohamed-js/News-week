@@ -309,7 +309,7 @@ main {
 
 /* my changes */
 #newsweekfootrow {
-  padding-left: 20px;
+  padding-left: 10px;
   background-color: #fff;
   position: relative;
 }
@@ -320,7 +320,7 @@ footer {
 }
 
 footer .container {
-  width: 100%;
+  width: 90%;
 }
 
 .bottom-align-text {
