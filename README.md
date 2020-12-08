@@ -1,4 +1,4 @@
-# TNW - Newsweek - Bootstrap Responsive design
+# Newsweek - Bootstrap Responsive design
 
 > Sneak Peak - Project 3 .. cloning Newsweek homepage.
 
