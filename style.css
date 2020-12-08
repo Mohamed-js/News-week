@@ -3,44 +3,45 @@
   padding: 0;
 }
 .h5, h5 {
-    font-size: 1rem;
-    font-weight: bold;
+  font-size: 1rem;
+  font-weight: bold;
 }
 a {
   text-decoration: none;
   color: inherit;
 }
+/* I changed here */
 body {
-  background-color: #f4f5f6;
+  background-color: #fff;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .navbar {
-    background-color: #f72210;
-    font-weight: bolder;
-    padding-top: 3px;
-    padding-bottom: 3px;
+  background-color: #f72210;
+  font-weight: bolder;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
 nav a {
-    color: white;
-    margin-right: 10px;
+  color: white;
+  margin-right: 10px;
 }
 
 nav button {
-    margin-right: 10px;
-    padding: 3px;
-    padding-left: 8px;
-    padding-right: 8px;
-    border: none;
-    background-color: #ffe400;
-    border-radius: 20px;
-    font-weight: bolder;
+  margin-right: 10px;
+  padding: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border: none;
+  background-color: #ffe400;
+  border-radius: 20px;
+  font-weight: bolder;
 }
-.navbar-toggler-icon{
-    margin-right: 0px;
-    padding: 5px;
-    
+
+.navbar-toggler-icon {
+  margin-right: 0;
+  padding: 5px;
 }
 
 main {
@@ -48,102 +49,184 @@ main {
   background-color: white;
 }
 
-
-
 .left {
-    display: inline-flex;
-    width: 25%;
-    flex-flow: column;
-    margin-top: 100px;
-    margin-right: 10px;
+  display: inline-flex;
+  width: 25%;
+  flex-flow: column;
+  margin-top: 100px;
+  margin-right: 10px;
 }
 
 .center {
-    display: inline-flex;
-    flex-flow: column;
-    width: 40%;
-    position: sticky;
-    top: 170px;
-    margin-right: 10px;
+  display: inline-flex;
+  flex-flow: column;
+  width: 40%;
+  position: sticky;
+  top: 170px;
+  margin-right: 10px;
 }
 
 .right {
-    display: inline-flex;
-    flex-flow: column;
-    
-    width: 25%;
-    position: sticky;
-    top: 170px;
+  display: inline-flex;
+  flex-flow: column;
+  width: 25%;
+  position: sticky;
+  top: 170px;
 }
 
 .img img {
-    width: 100%;
+  width: 100%;
 }
 
 .img span {
-    padding: 5px;
-    position: relative;
-    top: -26px;
-    background-color: rgba(211, 210, 210,.8);
+  padding: 5px;
+  position: relative;
+  top: -26px;
+  background-color: rgba(211, 210, 210, 0.8);
 }
 
 .card {
-    display: inline-block;
-    margin-bottom: 15px;
+  display: inline-block;
+  margin-bottom: 15px;
 }
 
 .pics {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .pic {
-    width: 30%;
+  width: 30%;
 }
 
 .pic img {
-    width: 100%;
+  width: 100%;
 }
 
 .pic2 {
-    display: flex;
+  display: flex;
 }
+
 .pic2 img {
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    margin-right: 8px;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  margin-right: 8px;
 }
 
 .pic3 {
-    display: flex;
-    flex-flow: row;
+  display: flex;
+  flex-flow: row;
 }
 
 .pic3 :first-child {
-    height: 80px;
-    width: 80px;
-    flex-basis: 25%;
+  height: 80px;
+  width: 80px;
+  flex-basis: 25%;
 }
+
 .pic3 :nth-child(2) {
-    height: 80px;
-    width: 80px;
-    flex-basis: 75%;
+  height: 80px;
+  width: 80px;
+  flex-basis: 75%;
 }
+
 .pic3 img {
-    width: 100%;
-    height: 100%;
-    padding: 5px;
-    margin-right: 8px;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  margin-right: 8px;
 }
 
 .roow {
-    display: flex;
-    justify-content: space-between;
-    padding: 5px;
-    border-bottom: 1px rgb(179, 179, 179) solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 1px rgb(179, 179, 179) solid;
 }
+
 .roow :first-child {
-    margin-right: 5px;
+  margin-right: 5px;
+}
+
+/* my changes */
+#newsweekfootrow {
+  padding-left: 20px;
+  background-color: #fff;
+  position: relative;
+}
+
+footer {
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+footer .container {
+  width: 100%;
+}
+
+.bottom-align-text {
+  padding-top: 20px;
+}
+
+#copyright-line {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 15px;
+  padding-top: 30px;
+}
+
+#footer-links {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 15px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.link-border {
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  height: 15px;
+  padding-left: 5px;
+}
+
+.btn-primary {
+  background-color: #f72210;
+  border: none;
+  color: #fff;
+}
+
+#subscribe {
+  background-color: #f4f5f6;
+}
+
+.subscribe-img {
+  margin-left: 50px;
+}
+
+#h2-bottom-rows {
+  color: #f72210;
+  line-height: 22px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#row-text {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: left;
+}
+
+#right-side {
+  font-size: 17px;
+  font-weight: 700;
 }
