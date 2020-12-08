@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+.h5, h5 {
+    font-size: 1rem;
+    font-weight: bold;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -44,15 +48,14 @@ main {
   background-color: white;
 }
 
-.section-1 {
-    
-}
+
 
 .left {
     display: inline-flex;
     width: 25%;
     flex-flow: column;
     margin-top: 100px;
+    margin-right: 10px;
 }
 
 .center {
@@ -60,15 +63,17 @@ main {
     flex-flow: column;
     width: 40%;
     position: sticky;
-    top: 0px;
+    top: 170px;
+    margin-right: 10px;
 }
 
 .right {
     display: inline-flex;
     flex-flow: column;
+    
     width: 25%;
     position: sticky;
-    top: 125px;
+    top: 170px;
 }
 
 .img img {
@@ -84,4 +89,61 @@ main {
 
 .card {
     display: inline-block;
+    margin-bottom: 15px;
+}
+
+.pics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pic {
+    width: 30%;
+}
+
+.pic img {
+    width: 100%;
+}
+
+.pic2 {
+    display: flex;
+}
+.pic2 img {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    margin-right: 8px;
+}
+
+.pic3 {
+    display: flex;
+    flex-flow: row;
+}
+
+.pic3 :first-child {
+    height: 80px;
+    width: 80px;
+    flex-basis: 25%;
+}
+.pic3 :nth-child(2) {
+    height: 80px;
+    width: 80px;
+    flex-basis: 75%;
+}
+.pic3 img {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    margin-right: 8px;
+}
+
+.roow {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px rgb(179, 179, 179) solid;
+}
+.roow :first-child {
+    margin-right: 5px;
 }
