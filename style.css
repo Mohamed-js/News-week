@@ -36,6 +36,7 @@ nav button {
 
 .nav2 {
   display: none;
+  position: relative;
 }
 
 .nav2 p {
@@ -43,10 +44,25 @@ nav button {
 }
 
 .nav3 {
+  position: relative;
   display: none;
   box-sizing: border-box;
   background-color: white;
   border-bottom: solid 1px grey;
+}
+
+.nav2 ::after{
+  position: absolute;
+  bottom: -13px;
+  right: 0;
+  display: block;
+  content: "";
+  width: 55px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+  max-height: 3px;
+  z-index: 8;
 }
 
 ul {
@@ -67,6 +83,11 @@ ul a {
   background-color: white;
   border-bottom: solid 1px grey;
 }
+
+.nav4 ul a {
+  border: 0;
+  color: #cec1c0;
+}  
 
 main {
   background-color: white;
