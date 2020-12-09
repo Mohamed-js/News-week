@@ -256,13 +256,8 @@ main {
 .img span {
   padding: 5px;
   position: relative;
-  top: -26px;
+  top: -25px;
   background-color: rgba(211, 210, 210, 0.8);
-}
-
-.card {
-  display: inline-block;
-  margin-bottom: 15px;
 }
 
 .pic img {
