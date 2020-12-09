@@ -46,6 +46,7 @@ nav button {
 }
 
 .navbar-toggler-icon {
+  display: inline-block;
   margin-right: 0;
   padding: 5px;
 }
@@ -56,7 +57,6 @@ nav button {
 
 .nav2 {
   display: none;
-  max-width: 1192px;
   margin: auto;
   padding-top: 0;
   padding-bottom: 0;
@@ -70,7 +70,6 @@ nav button {
 
 .nav3 {
   display: none;
-  max-width: 1192px;
   margin: auto;
   padding: 10px;
   box-sizing: border-box;
@@ -96,7 +95,6 @@ nav button {
 
 .nav4 {
   display: none;
-  max-width: 1192px;
   margin: auto;
   padding: 10px;
   box-sizing: border-box;
@@ -120,7 +118,6 @@ nav button {
 }
 
 main {
-  max-width: 1192px;
   background-color: white;
 }
 
@@ -174,12 +171,12 @@ main {
 
   .center {
     position: sticky;
-    width: 60%;
+    width: 55%;
     margin: 15px;
   }
 
   .left {
-    width: 30%;
+    width: 35%;
     margin: 15px;
   }
 
@@ -195,6 +192,10 @@ main {
 
   .pic {
     width: 30%;
+  }
+
+  .navbar-toggler-icon {
+    display: none;
   }
 }
 
@@ -213,12 +214,12 @@ main {
 
   .center {
     position: sticky;
-    width: 60%;
+    width: 55%;
     margin: 15px;
   }
 
   .left {
-    width: 30%;
+    width: 35%;
     margin: 15px;
   }
 
