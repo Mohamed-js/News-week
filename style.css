@@ -207,65 +207,28 @@ main {
 }
 
 /* my changes */
-#newsweekfootrow {
-  padding-left: 10px;
-  background-color: #fff;
-  position: relative;
-}
-
 .newsweekfootrow {
-  padding-left: 10px;
   background-color: #fff;
-  position: relative;
 }
 
 footer {
   background-color: #fff;
-  margin-top: 10px;
-}
-
-footer .container {
-  width: 90%;
-}
-
-.bottom-align-text {
-  padding-top: 20px;
-}
-
-#copyright-line {
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 15px;
-  padding-top: 30px;
 }
 
 .copyright-line {
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 15px;
-  padding-top: 30px;
-}
-
-#footer-links {
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 15px;
-  padding-top: 4px;
-  padding-bottom: 4px;
 }
 
 .footer-links {
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 15px;
-  padding-top: 4px;
-  padding-bottom: 4px;
 }
 
 .link-border {
   border-left: 1px solid rgba(0, 0, 0, 0.2);
-  height: 15px;
-  padding-left: 5px;
 }
 
 .btn-primary {
@@ -282,12 +245,8 @@ footer .container {
   background-color: #f4f5f6;
 }
 
-.subscribe-img {
-  margin-left: 50px;
-}
-
 #h2-bottom-rows {
-  color: #f72210;
+  color: #cec1c0;
   line-height: 22px;
   font-size: 22px;
   font-weight: 700;
@@ -319,25 +278,11 @@ hr {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-#row-text {
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 22px;
-  text-align: left;
-  padding-top: 5px;
-}
-
 .row-text {
   font-size: 22px;
   font-weight: 700;
   line-height: 22px;
   text-align: left;
-  padding-top: 5px;
-}
-
-#right-side {
-  font-size: 17px;
-  font-weight: 700;
 }
 
 .right-side {
@@ -346,8 +291,6 @@ hr {
 }
 
 .img-fluidd {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
 }
 
@@ -355,36 +298,10 @@ hr {
   width: 29px;
   height: 28px;
   background-color: #f72210;
-  margin-right: 10px;
-  padding-bottom: 4px;
 }
 
-.mid-head {
-  padding-bottom: 0;
-}
-
-#no-borders {
-  border: 0;
-}
-
-.no-borders {
-  border: 0;
-}
-
-.card-image {
+.over-image {
   position: relative;
-}
-
-#row-link {
-  line-height: 22px;
-  font-size: 22px;
-  font-weight: 700;
-  background: rgba(243, 241, 241, 0.8);
-  text-align: center;
-  padding-top: 5px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 5px;
 }
 
 .row-link {
@@ -392,36 +309,21 @@ hr {
   font-size: 22px;
   font-weight: 700;
   background: rgba(243, 241, 241, 0.8);
-  text-align: center;
-  padding-top: 5px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 5px;
 }
 
 #row-link2 {
   line-height: 22px;
   font-size: 22px;
   font-weight: 700;
-  text-align: left;
-  padding-top: 5px;
-  padding-left: 0;
-  padding-right: 15px;
-  padding-bottom: 5px;
 }
 
 .row-link2 {
   line-height: 22px;
   font-size: 22px;
   font-weight: 700;
-  text-align: left;
-  padding-top: 5px;
-  padding-left: 0;
-  padding-right: 15px;
-  padding-bottom: 5px;
 }
 
-.card-image .card-over {
+.over-image .box-over {
   position: absolute;
   z-index: 999;
   text-align: center;
@@ -432,13 +334,9 @@ hr {
   line-height: 22px;
   font-size: 22px;
   font-weight: 700;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
-.card-image .card-over2 {
+.over-image .box-over2 {
   position: absolute;
   z-index: 999;
   text-align: center;
@@ -449,43 +347,19 @@ hr {
   line-height: 22px;
   font-size: 22px;
   font-weight: 700;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
-.card-holder {
-  padding-right: 15px;
-  margin: 0;
-}
-
-.dual {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.card-orange {
-  text-align: center;
+.text-orange {
   background: #f72210;
   color: #fff;
   line-height: 22px;
   font-size: 22px;
   font-weight: 700;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
-.card-transparent {
-  text-align: center;
+.text-transparent {
   color: #f72210;
   line-height: 22px;
   font-size: 22px;
   font-weight: 700;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
