@@ -51,7 +51,7 @@ nav button {
   border-bottom: solid 1px grey;
 }
 
-.nav2 ::after{
+.nav2 ::after {
   position: absolute;
   bottom: -13px;
   right: 0;
@@ -87,7 +87,7 @@ ul a {
 .nav4 ul a {
   border: 0;
   color: #cec1c0;
-}  
+}
 
 main {
   background-color: white;
