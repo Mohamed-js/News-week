@@ -99,7 +99,11 @@ main {
 }
 
 /* tablet */
-@media screen and (min-width: 762px) {
+@media screen and (min-width: 768px) {
+  main {
+    margin: 0;
+  }
+
   .gathering {
     width: 100%;
   }
@@ -136,7 +140,7 @@ main {
 
 /* desktop */
 
-@media screen and (min-width: 972px) {
+@media screen and (min-width: 992px) {
   .right {
     position: sticky;
     width: 27%;
@@ -182,7 +186,7 @@ main {
   .pic {
     width: 30%;
   }
-}
+} 
 
 .img span {
   padding: 5px;
