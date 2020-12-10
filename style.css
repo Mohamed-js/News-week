@@ -65,6 +65,24 @@ nav button {
   z-index: 8;
 }
 
+.nav2 form img {
+  max-width: 100%;
+  margin: 0;
+}
+
+.nav2 form a {
+  max-width: 90%;
+  margin: 0;
+}
+
+.nav3 input {
+  max-width: 50px;
+}
+
+.nav4 ul :first-child a {
+  color: black;
+}
+
 ul {
   list-style: none;
 }
