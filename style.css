@@ -27,16 +27,12 @@ img.position-absolute {
   z-index: 0;
 }
 
-.nav1 form a {
-  display: none;
+nav a {
+  color: white;
 }
 
 .navbar {
   background-color: #f72210;
-}
-
-nav a {
-  color: white;
 }
 
 nav button {
@@ -94,6 +90,10 @@ ul a {
   border-right: 1px solid grey;
   padding: 1px;
   padding-right: 12px;
+}
+
+.nav1 form a {
+  display: none;
 }
 
 .nav2 form a {
