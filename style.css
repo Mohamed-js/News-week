@@ -21,6 +21,16 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
+img.position-absolute {
+  left: 30px;
+  top: 50px;
+  z-index: 0;
+}
+
+.nav1 form a {
+  display: none;
+}
+
 .navbar {
   background-color: #f72210;
 }
@@ -132,6 +142,10 @@ main {
   top: 0;
 }
 
+.ups {
+  top: -30px;
+}
+
 .pics {
   flex-flow: column;
 }
@@ -148,6 +162,14 @@ main {
 @media screen and (min-width: 768px) {
   main {
     margin: 0;
+  }
+
+  .fa-user {
+    display: none;
+  }
+
+  .nav1 form a {
+    display: inline;
   }
 
   .gathering {
