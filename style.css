@@ -246,6 +246,10 @@ main {
     width: 27%;
   }
 
+  .fa-user {
+    display: none;
+  }
+
   .gathering {
     width: 70%;
     display: inline-block;
