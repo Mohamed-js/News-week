@@ -22,9 +22,10 @@ body {
 }
 
 img.position-absolute {
-  left: 30px;
-  top: 50px;
+  left: 130px;
+  top: 90px;
   z-index: 0;
+  height: 13rem;
 }
 
 nav a {
@@ -90,6 +91,18 @@ ul a {
   border-right: 1px solid grey;
   padding: 1px;
   padding-right: 12px;
+}
+
+.colu {
+  flex-flow: column;
+}
+
+.top-story2 {
+  display: none;
+}
+
+.top-story1 {
+  display: block;
 }
 
 .nav1 form a {
@@ -162,6 +175,25 @@ main {
 @media screen and (min-width: 768px) {
   main {
     margin: 0;
+  }
+
+  .top-story1 {
+    display: none;
+  }
+  
+  .top-story2 {
+    display: block;
+  }
+
+  .colu {
+    flex-flow: row;
+  }
+
+  img.position-absolute {
+    left: 50px;
+    top: 110px;
+    z-index: 0;
+    height: 13rem;
   }
 
   .fa-user {
