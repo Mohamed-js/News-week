@@ -65,26 +65,16 @@ nav button {
   z-index: 8;
 }
 
+.pic2 img {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  margin-right: 8px;
+}
+
 .nav2 form img {
   max-width: 100%;
   margin: 0;
-}
-
-.nav2 form a {
-  max-width: 90%;
-  margin: 0;
-}
-
-.nav3 input {
-  max-width: 50px;
-}
-
-.nav4 ul :first-child a {
-  color: black;
-}
-
-ul {
-  list-style: none;
 }
 
 ul a {
@@ -96,15 +86,32 @@ ul a {
   padding-right: 12px;
 }
 
-.nav4 {
-  display: none;
-  background-color: white;
-  border-bottom: solid 1px grey;
+.nav2 form a {
+  max-width: 90%;
+  margin: 0;
+}
+
+.nav3 input {
+  max-width: 50px;
 }
 
 .nav4 ul a {
   border: 0;
   color: #cec1c0;
+}
+
+.nav4 ul :first-child a {
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav4 {
+  display: none;
+  background-color: white;
+  border-bottom: solid 1px grey;
 }
 
 main {
@@ -232,13 +239,6 @@ main {
   position: relative;
   top: -25px;
   background-color: rgba(211, 210, 210, 0.8);
-}
-
-.pic2 img {
-  width: 100px;
-  height: 100px;
-  padding: 5px;
-  margin-right: 8px;
 }
 
 .roow {
